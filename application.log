@@ -1,5 +1,0 @@
-[31m2021-11-19T01:21:13,654[m [32mINFO [nb-batch,,][m[[1;34mSpringApplicationShutdownHook[m] [1;33mo.a.k.c.p.KafkaProducer[m: [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
-[31m2021-11-19T01:21:13,772[m [32mINFO [nb-batch,,][m[[1;34mSpringApplicationShutdownHook[m] [1;33mo.a.k.c.m.Metrics[m: Metrics scheduler closed
-[31m2021-11-19T01:21:13,776[m [32mINFO [nb-batch,,][m[[1;34mSpringApplicationShutdownHook[m] [1;33mo.a.k.c.m.Metrics[m: Closing reporter org.apache.kafka.common.metrics.JmxReporter
-[31m2021-11-19T01:21:13,779[m [32mINFO [nb-batch,,][m[[1;34mSpringApplicationShutdownHook[m] [1;33mo.a.k.c.m.Metrics[m: Metrics reporters closed
-[31m2021-11-19T01:21:13,797[m [32mINFO [nb-batch,,][m[[1;34mSpringApplicationShutdownHook[m] [1;33mo.a.k.c.u.AppInfoParser[m: App info kafka.producer for producer-1 unregistered
