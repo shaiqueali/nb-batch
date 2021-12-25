@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: ${SPRING_APPLICATION_NAME:nb-batch}
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    discovery:
+      enabled: false
+
+management:
+  server:
+    port: 9081
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: health, metrics, info, prometheus, beans
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    it:
+      nb:
+        batch: TRACE
+
+server:
+  port: 8086
+  servlet:
+    contextPath: /nb-batch
+
+kafka:
+  bootstrap:
+    servers:
+      - localhost:9092
+  topics:
+    - files-topic
+  client:
+    id: producer-1
+  acks: all
+
+
+app:
+  dir-path: /Users/shaique/files
+
